@@ -52,4 +52,4 @@ library(dplyr)
                         across(tBodyAccmeanX:fBodyBodyGyroJerkMagmeanFreq, mean))
 
        
-write.csv(result, "Tidy.csv", row.names = FALSE)
+write.table(result, "Tidy.txt", row.names = FALSE)
