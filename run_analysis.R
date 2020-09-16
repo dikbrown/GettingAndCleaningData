@@ -10,6 +10,11 @@ library(dplyr)
     featurelabels[,2] <- gsub("-", "", featurelabels[,2])
     featurelabels[,2] <- gsub("\\(\\)", "", featurelabels[,2])
     featurelabels[,2] <- gsub(",", "to", featurelabels[,2])
+    featurelabels[,2] <- gsub("^t", "^Time", featurelabels[,2])
+    featurelabels[,2] <- gsub("^f", "^Freq", featurelabels[,2])
+    featurelabels[,2] <- gsub("mean", "Mean", featurelabels[,2])
+    featurelabels[,2] <- gsub("std,", "Stdev", featurelabels[,2])
+    
     
 
     # actual data
