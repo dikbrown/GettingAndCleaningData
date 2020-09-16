@@ -3,6 +3,7 @@
 Experimental data were retrieved from smartphone motion tests. Each experiment consisted of a subject wearing a Samsung smart phone while performing various activities. The accelerometer and gyroscope in the phone each recorded measurements at a rate of 50 Hz (i.e., 50 times per second) to get time domain data. Measurements were recorded in overlapping 2.56 second windows and summary data (mean, min, max, etc.) were generated from each window from the raw data. The time domain data were also submitted to a Fast Fourier Transform to yield frequency domain data.
 
 Each data variable has several parts to its name:
+
 	1. "t" (time domain) or "f" (frequency domain)
 	2. "Gravity" or "Body" measurements
 	3. Acc (accelerometer) or Gyro (gyroscope) measurement
@@ -10,6 +11,9 @@ Each data variable has several parts to its name:
 	5. Mag (Euclidean 3D magnitude of the signal)
 	6. Jerk signals
 	7. mean or std calculation (other summary variables were calculated, but were not used in this analysis).
+	
+Units for all accelerometer measurements were in m/sec^2.
+Units for all gyroscope measurements were in radians/sec.
 
 In total, 561 variables were thus obtained. Eliminating all but the mean and std columns resulted in only 79 variables being considered.
 
