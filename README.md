@@ -1,5 +1,4 @@
-# GettingAndCleaningData
-W4 assignment for Coursera course: Getting and Cleaning Data
+# Week 4 assignment for Coursera course: Getting and Cleaning Data
 
 The script included herein uses data obtained from a smartphone, which has been analyzed motion analysis. The original data has already been partly summarized, converting the raw data to averages, standard deviations, max & min data, etc., over rolling time segments. The raw summarized data were put in one file, while the variable names, subject ids and activity ids have been each placed in separate files. The data were then split into a testing set and a training set. The purpose of this assignment was to combine all of this information into a single flat file, pull out user averages for each of the activities in question for each required variable, and then store the averages in a tidy data set. The "required variables" were any that contained mean or standard deviation information. Variables containing information such as max and min information were excluded, as were any other variables which were not mean or standard deviation information.
 
