@@ -4,13 +4,13 @@ Experimental data were retrieved from smartphone motion tests. Each experiment c
 
 Each data variable has several parts to its name:
 
-	1. "t" (time domain) or "f" (frequency domain)
+	1. "Time" (time domain) or "Freq" (frequency domain)
 	2. "Gravity" or "Body" measurements
 	3. Acc (accelerometer) or Gyro (gyroscope) measurement
 	4. X, Y, or Z, representing signals along the three directions
 	5. Mag (Euclidean 3D magnitude of the signal)
 	6. Jerk signals
-	7. mean or std calculation (other summary variables were calculated, but were not used in this analysis).
+	7. Mean or Stdev calculation (other summary variables were calculated, but were not used in this analysis).
 	
 Units for all accelerometer measurements were in m/sec^2.
 Units for all gyroscope measurements were in radians/sec.
